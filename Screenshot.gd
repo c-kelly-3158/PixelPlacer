@@ -16,7 +16,6 @@ func _physics_process(delta):
 			if FileAccess.file_exists(OS.get_system_dir(0) +"/PixelPicker/"+ str(numberShot) + "screenShot.png"):
 				numberShot += 1
 		shoot_screen()
-		#test
 
 func shoot_screen():
 	var img = get_viewport().get_texture().get_image()
