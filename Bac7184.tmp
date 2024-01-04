@@ -1,0 +1,228 @@
+[gd_scene load_steps=4 format=3 uid="uid://lrera7umxrdd"]
+
+[ext_resource type="Script" path="res://Screenshot.gd" id="1_208k2"]
+[ext_resource type="Texture2D" uid="uid://b1bgl5gkpmurn" path="res://Sprites/Backboard.png" id="1_g4edh"]
+[ext_resource type="PackedScene" uid="uid://d12kskfv34mu4" path="res://sprite_2d.tscn" id="2_euw1s"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_208k2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_g4edh")
+
+[node name="Pixels" type="Node2D" parent="."]
+
+[node name="Sprite2D" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-119, 178)
+
+[node name="Sprite2D2" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-72, 178)
+
+[node name="Sprite2D3" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-25, 178)
+
+[node name="Sprite2D4" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(23, 178)
+
+[node name="Sprite2D5" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(70.5, 178)
+
+[node name="Sprite2D6" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(118, 178)
+
+[node name="Sprite2D7" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-96, 136.75)
+
+[node name="Sprite2D8" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-49, 136.75)
+
+[node name="Sprite2D9" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-2, 136.75)
+
+[node name="Sprite2D10" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(46, 136.75)
+
+[node name="Sprite2D11" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(93.5, 136.75)
+
+[node name="Sprite2D12" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(141, 136.75)
+
+[node name="Sprite2D13" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-143, 136.75)
+
+[node name="Sprite2D14" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-119, 95.5)
+
+[node name="Sprite2D15" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-72, 95.5)
+
+[node name="Sprite2D16" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-25, 95.5)
+
+[node name="Sprite2D17" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(23, 95.5)
+
+[node name="Sprite2D18" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(70.5, 95.5)
+
+[node name="Sprite2D19" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(118, 95.5)
+
+[node name="Sprite2D20" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-96, 54.25)
+
+[node name="Sprite2D21" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-49, 54.25)
+
+[node name="Sprite2D22" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-2, 54.25)
+
+[node name="Sprite2D23" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(46, 54.25)
+
+[node name="Sprite2D24" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(93.5, 54.25)
+
+[node name="Sprite2D25" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(141, 54.25)
+
+[node name="Sprite2D26" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-143, 54.25)
+
+[node name="Sprite2D27" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-119, 13)
+
+[node name="Sprite2D28" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-72, 13)
+
+[node name="Sprite2D29" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-25, 13)
+
+[node name="Sprite2D30" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(23, 13)
+
+[node name="Sprite2D31" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(70.5, 13)
+
+[node name="Sprite2D32" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(118, 13)
+
+[node name="Sprite2D33" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-96, -28.25)
+
+[node name="Sprite2D34" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-49, -28.25)
+
+[node name="Sprite2D35" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-2, -28.25)
+
+[node name="Sprite2D36" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(46, -28.25)
+
+[node name="Sprite2D37" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(93.5, -28.25)
+
+[node name="Sprite2D38" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(141, -28.25)
+
+[node name="Sprite2D39" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-143, -28.25)
+
+[node name="Sprite2D40" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-119, -69.5)
+
+[node name="Sprite2D41" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-72, -69.5)
+
+[node name="Sprite2D42" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-25, -69.5)
+
+[node name="Sprite2D43" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(23, -69.5)
+
+[node name="Sprite2D44" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(70.5, -69.5)
+
+[node name="Sprite2D45" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(118, -69.5)
+
+[node name="Sprite2D46" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-96, -110.75)
+
+[node name="Sprite2D47" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-49, -110.75)
+
+[node name="Sprite2D48" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-2, -110.75)
+
+[node name="Sprite2D49" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(46, -110.75)
+
+[node name="Sprite2D50" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(93.5, -110.75)
+
+[node name="Sprite2D51" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(141, -110.75)
+
+[node name="Sprite2D52" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-143, -110.75)
+
+[node name="Sprite2D53" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-119, -152)
+
+[node name="Sprite2D54" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-72, -152)
+
+[node name="Sprite2D55" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-25, -152)
+
+[node name="Sprite2D56" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(23, -152)
+
+[node name="Sprite2D57" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(70.5, -152)
+
+[node name="Sprite2D58" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(118, -152)
+
+[node name="Sprite2D59" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-96, -193.25)
+
+[node name="Sprite2D60" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-49, -193.25)
+
+[node name="Sprite2D61" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-2, -193.25)
+
+[node name="Sprite2D62" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(46, -193.25)
+
+[node name="Sprite2D63" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(93.5, -193.25)
+
+[node name="Sprite2D64" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(141, -193.25)
+
+[node name="Sprite2D65" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-143, -193.25)
+
+[node name="Sprite2D66" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-119, -234.5)
+
+[node name="Sprite2D67" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-72, -234.5)
+
+[node name="Sprite2D68" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(-25, -234.5)
+
+[node name="Sprite2D69" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(23, -234.5)
+
+[node name="Sprite2D70" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(70.5, -234.5)
+
+[node name="Sprite2D71" parent="Pixels" instance=ExtResource("2_euw1s")]
+position = Vector2(118, -234.5)
+
+[node name="Camera2D" type="Camera2D" parent="."]

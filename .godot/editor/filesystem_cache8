@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1704333242
+Backboard.tscn::PackedScene::807444978664231077::1704270540::0::1::::<><>::res://Screenshot.gd<>uid://b1bgl5gkpmurn::::res://Sprites/Backboard.png<>uid://d12kskfv34mu4::::res://sprite_2d.tscn
+export_presets.cfg::TextFile::-1::1704270282::0::1::::<><>::
+icon.svg::CompressedTexture2D::1013999426033602274::1704236832::1704236840::1::::<><>::
+Screenshot.gd::GDScript::-1::1704269444::0::1::::<>Node2D<>::
+Sprite2D.gd::GDScript::-1::1704247249::0::1::::<>Sprite2D<>::
+sprite_2d.tscn::PackedScene::9040550033195951101::1704270541::0::1::::<><>::uid://cxdy1b51uwtxr::::res://Sprites/PixelSpriteHighQuality.png<>res://Sprite2D.gd
+::res://Sprites/::1704264836
+Backboard.png::CompressedTexture2D::4213780527169780911::1704238796::1704238797::1::::<><>::
+Pixel.png::CompressedTexture2D::1207096038635366629::1704239316::1704239316::1::::<><>::
+PixelMap.png::CompressedTexture2D::7529359307172350565::1704247197::1704247197::1::::<><>::
+PixelSpriteHighQuality.png::CompressedTexture2D::6394881642867466523::1704264835::1704264836::1::::<><>::
